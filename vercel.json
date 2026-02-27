@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "builds": [{ "src": "nuffield_gap_analysis.html", "use": "@vercel/static" }],
+  "routes": [
+    { "src": "/", "dest": "/nuffield_gap_analysis.html" },
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}
