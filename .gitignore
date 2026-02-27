@@ -1,0 +1,7 @@
+node_modules/
+serve.mjs
+test_script.js
+_bmad/
+_bmad-output/
+docs/
+*.log
